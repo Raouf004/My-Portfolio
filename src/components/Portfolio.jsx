@@ -30,6 +30,17 @@ const Portfolio = () => {
       githubUrl: 'https://github.com/smart20718/smartservice', // **IMPORTANT: Replace with your actual GitHub repo URL if available**
       featured: true
     },
+    {
+      id: 3,
+      title: 'E-Ta3lim - Elearning website for students',
+      description: 'An educational platform designed for students, featuring courses, quizzes, and user-friendly navigation.',
+      image: '/images/Secretcoder.jpg', // Replace with an actual screenshot or suitable image URL
+      category: 'frontend',
+      technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe', 'Material-UI'],
+      liveUrl: 'https://e-ta3lim.netlify.app/',
+      githubUrl: 'https://github.com/Raouf004/eta3lim', // **IMPORTANT: Replace with your actual GitHub repo URL if available**
+      featured: true
+    },
   ];
 
   useEffect(() => {
