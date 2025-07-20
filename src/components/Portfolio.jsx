@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ExternalLink, Github, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button'; // Assuming this path is correct for your project
 
@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       title: 'YourDrip - E-commerce Store',
       description: 'A modern e-commerce platform offering a wide range of products, with user authentication, secure payment processing, and a seamless shopping experience.',
-      image: '/src/images/YourDripPNG.PNG', // Replace with an actual screenshot or suitable image URL
+      image: '/src/images/YourDrip.jpg', // Replace with an actual screenshot or suitable image URL
       category: 'fullstack',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
       liveUrl: 'https://your-drip.netlify.app/',
