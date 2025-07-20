@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { ExternalLink, Github, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button'; // Assuming this path is correct for your project
 
@@ -54,7 +54,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="portfolio" className="py-20 bg-slate-900">
+    <motion.section id="portfolio" className="py-20 bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -209,7 +209,7 @@ const Portfolio = () => {
         )}
         */}
       </div>
-    </section>
+    </motion.section>
   );
 };
 
