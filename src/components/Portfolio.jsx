@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       title: 'YourDrip - E-commerce Store',
       description: 'A modern e-commerce platform offering a wide range of products, with user authentication, secure payment processing, and a seamless shopping experience.',
-      image: '/src/assets/images/YourDrip.jpg', // Replace with an actual screenshot or suitable image URL
+      image: '/images/YourDrip.jpg', // Replace with an actual screenshot or suitable image URL
       category: 'fullstack',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
       liveUrl: 'https://your-drip.netlify.app/',
@@ -23,7 +23,7 @@ const Portfolio = () => {
       id: 2,
       title: 'SmartService - E-commerce Solution',
       description: 'A robust full-stack e-commerce solution with features like product management, user roles, payment integration, and a comprehensive admin dashboard.',
-      image: '/src/assets/images/smartser.jpg', // You might want to get a real screenshot for this one too!
+      image: '/images/smartser.jpg', // You might want to get a real screenshot for this one too!
       category: 'fullstack',
       technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe', 'Material-UI'],
       liveUrl: 'https://smartservice-ten.vercel.app/',
