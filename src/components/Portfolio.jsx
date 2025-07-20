@@ -13,16 +13,16 @@ const Portfolio = () => {
       title: 'YourDrip - E-commerce Store',
       description: 'A modern e-commerce platform offering a wide range of products, with user authentication, secure payment processing, and a seamless shopping experience.',
       image: '/images/YourDrip.jpg', // Replace with an actual screenshot or suitable image URL
-      category: 'fullstack',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
+      category: 'frontend',
+      technologies: ['React', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
       liveUrl: 'https://your-drip.netlify.app/',
       githubUrl: 'https://github.com/Raouf004/StyleCO', // **IMPORTANT: Replace with your actual GitHub repo URL**
       featured: true
     },
     {
       id: 2,
-      title: 'SmartService - E-commerce Solution',
-      description: 'A robust full-stack e-commerce solution with features like product management, user roles, payment integration, and a comprehensive admin dashboard.',
+      title: 'SmartService - Electronic management of documents',
+      description: 'A robust full-stack documents e-management, user roles, chatbot integration, and a comprehensive admin dashboard.',
       image: '/images/smartser.jpg', // You might want to get a real screenshot for this one too!
       category: 'fullstack',
       technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Stripe', 'Material-UI'],
